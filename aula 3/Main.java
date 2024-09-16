@@ -1,14 +1,14 @@
-public class Main{
-  public static void main(String[] args){
 
-    //Instantanciando o objeto Pessoa
-    Pessoa pessoa1 = new Pessoa("Miguel", 17);
-    Pessoa pessoa2 = new Pessoa("Sofia", 17);
-    Pessoa pessoa3 = new Pessoa("Tauã", 18);
-
-    System.out.println(pessoa3.exibirInfo());
-    System.out.println(pessoa3.getNome());
-    System.out.println(pessoa3.getIdade());
-    }
+public class Main {
+  public static void main(String[] args) {
+    Filmes filme1 = new Filmes("O senhor dos Aneis", 2001, 178);
+    Filmes filme2 = new Filmes("1917", 2023, 138);
+    Filmes filme3 = new Filmes("Rebel", 2023, 152);
+    
+    System.out.println(filme1.exibirInfo());
+     System.out.println(filme2.exibirInfo());
+    System.out.println(filme3.exibirInfo());
   }
 
+ 
+}
